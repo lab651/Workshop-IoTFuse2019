@@ -199,7 +199,7 @@ Create Cloud Connections
       * Verify successful publishing. 
       * Kapua only allows publish to topic of  `$ACCOUNT/$DEVICE/* `
   * Verify data being sent to kapua cloud
-    * http://ec2-3-91-99-39.compute-1.amazonaws.com:8080/
+    * http://YOUR-EC2-INSTANCE:8080/
   * Can use any MQTT client to verify messages by subscribing to the topic:
     * account123/rasp-1/W1/A1/$assetName
     * OSX has a good program called "MQTTBox"
