@@ -170,7 +170,7 @@ Create Cloud Connections
 - Device CustomName
   - rasp-1
 - MqttDataTransport
-  - Broker-URL: mqtt://ec2-3-91-99-39.compute-1.amazonaws.com:1883
+  - Broker-URL: mqtt://YOUR-EC2-INSTANCE:1883
   - Account-Name: account123
   - username: user123
   - password: Kapua@12345678.com
@@ -180,7 +180,7 @@ Create Cloud Connections
 - Connect org.eclipse.kura.cloud.CloudService-2
 
 * Verify the connection and devices are shown
-  * Login to <http://ec2-3-91-99-39.compute-1.amazonaws.com:8080/>
+  * Login to <http://YOUR-EC2-INSTANCE:8080/>
   * Select "Account123"
   * Review that the connections and devices show "rasp-1"
 * Install Example Publisher
@@ -211,7 +211,7 @@ Create Cloud Connections
 * Install InfluxDB and Grafana from docs
   * Linux: <http://www.andremiller.net/content/grafana-and-influxdb-quickstart-on-ubuntu>
   * Docker: <https://towardsdatascience.com/get-system-metrics-for-5-min-with-docker-telegraf-influxdb-and-grafana-97cfd957f0ac>
-* Server runing at: <http://ec2-3-84-190-79.compute-1.amazonaws.com:3000
+* Server runing at: YOUR-EC2-INSTANCE:3000
   * login: admin
   * password: 
 * InfluxDB
